@@ -1,0 +1,14 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Add my library to the project.",
+      "factory": "./ng-add/index#ngAdd"
+    },
+    "hexagonal": {
+      "description": "A schematics to generate hexagonal module",
+      "factory": "./hexagonal/index#hexagonal",
+      "schema": "./hexagonal/schema.json"
+    }
+  }
+}
