@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { I<%= classify(name) %>Repository } from '../domain/repositories/<%= dasherize(name) %>.repository';
+import { I<%= classify(name) %>Repository } from '../../domain/repositories/<%= dasherize(name) %>.repository';
 
 
 @Injectable()
